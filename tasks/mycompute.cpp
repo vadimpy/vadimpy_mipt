@@ -129,19 +129,3 @@ int main(int k, char* args[])
   search(pure_data.begin(), --pure_data.end(), data, result);
   return 0;
 }
-
-
-
-int foo(std::vector<int>& a) {...}
-int main()
-{
-  ...
-  foo(a);
-}
-
-int foo(std::vector<int> a) {...}
-int main()
-{
-  ...
-  foo(a);
-}
