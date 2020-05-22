@@ -1,2 +1,1 @@
-# vadimpy_rep
-# vadimpy_rep
+# Shirokinskiy Vadim MIPT 814
