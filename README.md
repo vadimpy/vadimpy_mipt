@@ -1,1 +1,1 @@
-# Shirokinskiy Vadim MIPT 814
+# Shirokinskiy Vadim MIPT
