@@ -13,6 +13,9 @@ int main()
     gr.print();
 
     auto dist_table = johnson(gr);
+    if (!dist_table.first) {
+        std::cout << "Negative loop!";
+    }
     std::cout << "\nShortest distances:\n\n";
     for (auto node_distances : dist_table.second) {
         std::cout << "Node " << node_distances.node << ":\n\n";
